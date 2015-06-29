@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
+    <link href="./assets/css/application.css" rel="stylesheet">
+    <link href="./assets/css/fullcalendar.css" rel="stylesheet">
+    <link href="./assets/css/scheduler.min.css" rel="stylesheet">
+    <link href="./assets/css/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+    <title>CalenderApp</title>
+
+</head>
+<body>
+    <div id="app-container">
+        <div id="header-region"></div>
+        <div id="main-region" class="container">
+            <div id='calendar'></div>
+        </div>
+        <div id="dialog-region" style="display:none">
+            <form id="userDialog">
+                <label>User Name:</label>
+                <input type="text" id="userName" name="UserName"><br>
+                <label>Contact Number:</label>
+                <input type="number" id="contactNumber" name="Phone"><br>
+                <label>Event details:</label>
+                <textarea id="details" name="Details"></textarea><br>
+            </form>
+        </div>
+    </div>
+
+    <script data-main="assets/js/require-main.js" src="assets/js/vendor/require.js"></script>
+</body>
+</html>
